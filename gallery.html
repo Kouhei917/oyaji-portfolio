@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>作品ギャラリー - Oyajiのポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP&family=Yusei+Magic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🌟 Oyaji's Portfolio</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">トップ</a></li>
+        <li><a href="gallery.html">作品ギャラリー</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery-header">
+      <h1>作品ギャラリー</h1>
+      <p>カテゴリー別にOyajiの作品をご覧いただけます。</p>
+      <div class="category-tabs">
+        <button data-category="illustration" class="active">イラスト</button>
+        <button data-category="novel">小説</button>
+        <button data-category="scenario">シナリオ</button>
+        <button data-category="app">アプリ</button>
+      </div>
+    </section>
+
+    <section class="gallery-content">
+      <div class="card-container" id="gallery-cards">
+        <!-- JavaScriptで作品カードを挿入 -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-links">
+      <a href="#">X</a>
+      <a href="#">Instagram</a>
+      <a href="#">GitHub</a>
+    </div>
+    <p>&copy; 2025 Oyaji. All rights reserved.</p>
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
